@@ -15,6 +15,7 @@
 		A3723C73243BCDDD00E27327 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3723C72243BCDDD00E27327 /* EmojiTableViewController.swift */; };
 		A3723C75243BD1DF00E27327 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3723C74243BD1DF00E27327 /* EmojiTableViewCell.swift */; };
 		A3723C77243BD6DF00E27327 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3723C76243BD6DF00E27327 /* EmojiModel.swift */; };
+		A3723C7924403B6A00E27327 /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3723C7824403B6A00E27327 /* NewEmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A3723C72243BCDDD00E27327 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 		A3723C74243BD1DF00E27327 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		A3723C76243BD6DF00E27327 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		A3723C7824403B6A00E27327 /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A3723C5C243BCD7A00E27327 /* AppDelegate.swift */,
 				A3723C5E243BCD7A00E27327 /* SceneDelegate.swift */,
 				A3723C62243BCD7A00E27327 /* Main.storyboard */,
+				A3723C7824403B6A00E27327 /* NewEmojiTableViewController.swift */,
 				A3723C72243BCDDD00E27327 /* EmojiTableViewController.swift */,
 				A3723C76243BD6DF00E27327 /* EmojiModel.swift */,
 				A3723C74243BD1DF00E27327 /* EmojiTableViewCell.swift */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3723C5D243BCD7A00E27327 /* AppDelegate.swift in Sources */,
+				A3723C7924403B6A00E27327 /* NewEmojiTableViewController.swift in Sources */,
 				A3723C73243BCDDD00E27327 /* EmojiTableViewController.swift in Sources */,
 				A3723C75243BD1DF00E27327 /* EmojiTableViewCell.swift in Sources */,
 				A3723C77243BD6DF00E27327 /* EmojiModel.swift in Sources */,
