@@ -62,6 +62,7 @@
                                     <outlet property="descriptionLabel" destination="rzQ-Wb-zvs" id="MNA-mz-ZTS"/>
                                     <outlet property="emojiLabel" destination="aeb-yA-p95" id="S2r-wt-atS"/>
                                     <outlet property="nameLabel" destination="aAm-cm-3iO" id="s28-Iw-Fi0"/>
+                                    <segue destination="j6A-JL-opI" kind="show" identifier="editEmoji" id="b5p-q2-xeh"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -182,8 +183,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Esr-nJ-UFf">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" style="done" id="8gB-lW-d0L"/>
-                        <barButtonItem key="rightBarButtonItem" title="Save" style="done" id="xWm-3V-a1R"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" style="done" id="8gB-lW-d0L">
+                            <connections>
+                                <segue destination="YU3-hj-TxC" kind="unwind" unwindAction="unwindSegueWithSegue:" id="ceS-rT-ZgN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" style="done" id="xWm-3V-a1R">
+                            <connections>
+                                <segue destination="YU3-hj-TxC" kind="unwind" identifier="saveSegue" unwindAction="unwindSegueWithSegue:" id="nnr-8g-RTy"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="descriptionTextField" destination="DqY-PH-1zP" id="DdO-Sd-qzD"/>
@@ -193,6 +202,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhU-Si-5va" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="YU3-hj-TxC" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2898.5507246376815" y="129.91071428571428"/>
         </scene>
@@ -234,4 +244,7 @@
             <point key="canvasLocation" x="1989.8550724637682" y="129.91071428571428"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="b5p-q2-xeh"/>
+    </inferredMetricsTieBreakers>
 </document>

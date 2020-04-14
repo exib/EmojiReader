@@ -64,11 +64,11 @@
 			children = (
 				A3723C5C243BCD7A00E27327 /* AppDelegate.swift */,
 				A3723C5E243BCD7A00E27327 /* SceneDelegate.swift */,
-				A3723C62243BCD7A00E27327 /* Main.storyboard */,
 				A3723C7824403B6A00E27327 /* NewEmojiTableViewController.swift */,
 				A3723C72243BCDDD00E27327 /* EmojiTableViewController.swift */,
 				A3723C76243BD6DF00E27327 /* EmojiModel.swift */,
 				A3723C74243BD1DF00E27327 /* EmojiTableViewCell.swift */,
+				A3723C62243BCD7A00E27327 /* Main.storyboard */,
 				A3723C65243BCD7C00E27327 /* Assets.xcassets */,
 				A3723C67243BCD7C00E27327 /* LaunchScreen.storyboard */,
 				A3723C6A243BCD7C00E27327 /* Info.plist */,
